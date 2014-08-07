@@ -14,6 +14,7 @@
 		047BCA23198B17F000D0DE01 /* Shadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 047BCA21198B17F000D0DE01 /* Shadow.m */; };
 		047BCA24198B17F000D0DE01 /* Shadow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 047BCA22198B17F000D0DE01 /* Shadow.xib */; };
 		048ECB791985DCEC00BFC504 /* OtherEnquiry.m in Sources */ = {isa = PBXBuildFile; fileRef = 048ECB771985DCEC00BFC504 /* OtherEnquiry.m */; };
+		04B619BA19930DC60034085C /* testImg.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B619B919930DC60034085C /* testImg.png */; };
 		04B730D319824EC600D5C905 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B730D219824EC600D5C905 /* Foundation.framework */; };
 		04B730D519824EC600D5C905 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B730D419824EC600D5C905 /* CoreGraphics.framework */; };
 		04B730D719824EC600D5C905 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B730D619824EC600D5C905 /* UIKit.framework */; };
@@ -54,6 +55,7 @@
 		047BCA22198B17F000D0DE01 /* Shadow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Shadow.xib; sourceTree = "<group>"; };
 		048ECB761985DCEC00BFC504 /* OtherEnquiry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherEnquiry.h; sourceTree = "<group>"; };
 		048ECB771985DCEC00BFC504 /* OtherEnquiry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherEnquiry.m; sourceTree = "<group>"; wrapsLines = 0; };
+		04B619B919930DC60034085C /* testImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testImg.png; sourceTree = "<group>"; };
 		04B730CF19824EC600D5C905 /* huamian2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = huamian2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B730D219824EC600D5C905 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		04B730D419824EC600D5C905 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -171,6 +173,7 @@
 		04B730D919824EC600D5C905 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				04B619B919930DC60034085C /* testImg.png */,
 				04B730DA19824EC600D5C905 /* huamian2-Info.plist */,
 				04B730DB19824EC600D5C905 /* InfoPlist.strings */,
 				04B730DE19824EC600D5C905 /* main.m */,
@@ -278,6 +281,7 @@
 				040ABFF51991C2B1008A23BB /* TableViewCell.xib in Resources */,
 				04B730EB19824EC600D5C905 /* Images.xcassets in Resources */,
 				04B730DD19824EC600D5C905 /* InfoPlist.strings in Resources */,
+				04B619BA19930DC60034085C /* testImg.png in Resources */,
 				04B7310B19824F0C00D5C905 /* CreditCardVerificationView.xib in Resources */,
 				04B730E619824EC600D5C905 /* Main.storyboard in Resources */,
 			);

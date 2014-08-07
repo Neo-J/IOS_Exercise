@@ -22,6 +22,7 @@
     CGRect workSpaceRect;
     NSInteger myViewWidth,myViewHeight;
     UIScrollView *viewScroll;
+    UIImageView *imgView;
 
 }
 
@@ -32,6 +33,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [self addScrollView];
 	// Do any additional setup after loading the view, typically from a nib.
     
     self.showSubviewbtn.layer.cornerRadius = 2.5;
@@ -40,10 +42,22 @@
     myViewWidth = workSpaceRect.size.width - 20;
     myViewHeight = 425;
     
-    viewScroll = [[UIScrollView alloc]init];
-    
 }
 
+-(void)addScrollView{
+    viewScroll = [[UIScrollView alloc]initWithFrame:
+                    CGRectMake(20, 200, 280, 420)];
+    imgView = [[UIImageView alloc]initWithImage:
+               [UIImage imageNamed:@"testImg.png"]];
+    [viewScroll addSubview:imgView];
+    viewScroll.contentSize = CGSizeMake(imgView.frame.size.width,
+                                          imgView.frame.size.height);
+    viewScroll.userInteractionEnabled = NO;
+    viewScroll.delegate = self;
+    [self.view addSubview:viewScroll];
+}
+
+//************addSubview button start********************
 - (IBAction)showSubview:(id)sender{
     //[self.view addSubview:myView.view];
     shadowView = [[Shadow alloc]init];
@@ -78,6 +92,7 @@
     [UIView commitAnimations];
 
 }
+//*************addSubview button end*********************
 
 - (void)didReceiveMemoryWarning
 {
@@ -85,6 +100,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+//*************CancelSubview delegate start***************
 - (void)creditCardVerificationViewDidCancel:(CreditCardVerificationView *)controller{
     
     CGPoint point = controller.view.center;
@@ -116,6 +133,28 @@
         [shadowView.view removeFromSuperview];     }];
     [UIView commitAnimations];
     
+}
+//*************CancelSubview delegate end***************
+
+//ScrollView Delegate function
+-(UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView{
+    return imgView;
+}
+-(void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView{
+    NSLog(@"Did end decelerating");
+}
+-(void)scrollViewDidScroll:(UIScrollView *)scrollView{
+     //   NSLog(@"Did scroll");
+}
+-(void)scrollViewDidEndDragging:(UIScrollView *)scrollView
+                 willDecelerate:(BOOL)decelerate{
+    NSLog(@"Did end dragging");
+}
+-(void)scrollViewWillBeginDecelerating:(UIScrollView *)scrollView{
+    NSLog(@"Did begin decelerating");
+}
+-(void)scrollViewWillBeginDragging:(UIScrollView *)scrollView{
+    NSLog(@"Did begin dragging");
 }
 
 @end

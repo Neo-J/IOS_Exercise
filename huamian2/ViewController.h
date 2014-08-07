@@ -10,7 +10,7 @@
 #import "CreditCardVerificationView.h"
 #import "OtherEnquiry.h"
 
-@interface ViewController : UIViewController<CreditCardVerificationViewDelegate,OtherEnquiryDelegate>
+@interface ViewController : UIViewController<CreditCardVerificationViewDelegate,OtherEnquiryDelegate,UIScrollViewDelegate>
 
 @property (strong, nonatomic) IBOutlet UIView *showSubviewbtn;
 
