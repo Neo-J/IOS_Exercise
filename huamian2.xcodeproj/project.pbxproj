@@ -15,6 +15,10 @@
 		047BCA24198B17F000D0DE01 /* Shadow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 047BCA22198B17F000D0DE01 /* Shadow.xib */; };
 		048ECB791985DCEC00BFC504 /* OtherEnquiry.m in Sources */ = {isa = PBXBuildFile; fileRef = 048ECB771985DCEC00BFC504 /* OtherEnquiry.m */; };
 		04B619BA19930DC60034085C /* testImg.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B619B919930DC60034085C /* testImg.png */; };
+		04B61A001998A0920034085C /* 1-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04B619FC1998A0920034085C /* 1-1.jpg */; };
+		04B61A011998A0920034085C /* 1-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04B619FD1998A0920034085C /* 1-2.jpg */; };
+		04B61A021998A0920034085C /* 1-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04B619FE1998A0920034085C /* 1-3.jpg */; };
+		04B61A031998A0920034085C /* 1-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04B619FF1998A0920034085C /* 1-4.jpg */; };
 		04B730D319824EC600D5C905 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B730D219824EC600D5C905 /* Foundation.framework */; };
 		04B730D519824EC600D5C905 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B730D419824EC600D5C905 /* CoreGraphics.framework */; };
 		04B730D719824EC600D5C905 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B730D619824EC600D5C905 /* UIKit.framework */; };
@@ -56,6 +60,10 @@
 		048ECB761985DCEC00BFC504 /* OtherEnquiry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherEnquiry.h; sourceTree = "<group>"; };
 		048ECB771985DCEC00BFC504 /* OtherEnquiry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherEnquiry.m; sourceTree = "<group>"; wrapsLines = 0; };
 		04B619B919930DC60034085C /* testImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testImg.png; sourceTree = "<group>"; };
+		04B619FC1998A0920034085C /* 1-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1-1.jpg"; sourceTree = "<group>"; };
+		04B619FD1998A0920034085C /* 1-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1-2.jpg"; sourceTree = "<group>"; };
+		04B619FE1998A0920034085C /* 1-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1-3.jpg"; sourceTree = "<group>"; };
+		04B619FF1998A0920034085C /* 1-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1-4.jpg"; sourceTree = "<group>"; };
 		04B730CF19824EC600D5C905 /* huamian2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = huamian2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B730D219824EC600D5C905 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		04B730D419824EC600D5C905 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -173,6 +181,10 @@
 		04B730D919824EC600D5C905 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				04B619FC1998A0920034085C /* 1-1.jpg */,
+				04B619FD1998A0920034085C /* 1-2.jpg */,
+				04B619FE1998A0920034085C /* 1-3.jpg */,
+				04B619FF1998A0920034085C /* 1-4.jpg */,
 				04B619B919930DC60034085C /* testImg.png */,
 				04B730DA19824EC600D5C905 /* huamian2-Info.plist */,
 				04B730DB19824EC600D5C905 /* InfoPlist.strings */,
@@ -276,12 +288,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B61A031998A0920034085C /* 1-4.jpg in Resources */,
+				04B61A021998A0920034085C /* 1-3.jpg in Resources */,
+				04B61A011998A0920034085C /* 1-2.jpg in Resources */,
 				040ABFEB199078D5008A23BB /* OtherEnquiry.xib in Resources */,
 				047BCA24198B17F000D0DE01 /* Shadow.xib in Resources */,
 				040ABFF51991C2B1008A23BB /* TableViewCell.xib in Resources */,
 				04B730EB19824EC600D5C905 /* Images.xcassets in Resources */,
 				04B730DD19824EC600D5C905 /* InfoPlist.strings in Resources */,
 				04B619BA19930DC60034085C /* testImg.png in Resources */,
+				04B61A001998A0920034085C /* 1-1.jpg in Resources */,
 				04B7310B19824F0C00D5C905 /* CreditCardVerificationView.xib in Resources */,
 				04B730E619824EC600D5C905 /* Main.storyboard in Resources */,
 			);

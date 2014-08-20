@@ -13,6 +13,7 @@
 @interface ViewController : UIViewController<CreditCardVerificationViewDelegate,OtherEnquiryDelegate,UIScrollViewDelegate>
 
 @property (strong, nonatomic) IBOutlet UIView *showSubviewbtn;
+@property (strong,nonatomic)NSMutableArray *slideImages;
 
 - (IBAction)showSubview:(id)sender;
 - (IBAction)showSubview2:(id)sender;
